@@ -1,0 +1,10 @@
+language: java
+
+jdk: openjdk8
+
+install: true
+
+install: true
+
+script:
+- mvn -f com.travis.example/pom.xml clean verify 
