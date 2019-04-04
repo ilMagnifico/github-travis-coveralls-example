@@ -5,4 +5,4 @@ jdk: openjdk8
 install: true
 
 script:
-- mvn -f com.travis.example/pom.xml clean verify 
+- mvn -f myapp/pom.xml clean verify 
